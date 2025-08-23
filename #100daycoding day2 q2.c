@@ -18,7 +18,7 @@ int main()
 {
     int num1, s1, s2;
     printf ("Enter 1st Number");
-    scanf ("%d, &num1");
+    scanf ("%d", &num1);
     s1=3.14*num1*num1;
     s2=2*3.14*num1;
     printf ("Area of a Circle with Radius %d is %d", num1, s1);
