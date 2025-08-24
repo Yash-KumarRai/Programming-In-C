@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main()
 {
-    int num1,num2,num3,s;
+    int a,b,c,s;
     printf("Enter three Number");
     scanf("%d,%d,%d,&a,&b,&c");
-    s=num1-num2+num3;
-    printf("sum of %d,%d,%d is %d",num1,num2,num3,s);
+    s=a-b+c;
+    printf(" sum of %d,%d and %d is %d",a,b,c,s);
     return 0;
 }
