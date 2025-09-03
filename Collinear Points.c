@@ -21,4 +21,5 @@ int main ()
     {
         printf ("The points are not collinear");
     }
+    return 0;
 }
